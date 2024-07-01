@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(gambar/baground\ ungu.jpeg);
+    color: white;
+}
+.container{
+   /* border: 2px solid #345677;*/
+    width: 450px;
+    height: 710px;
+    background: linear-gradient(to bottom, rgb(212, 177, 231), rgb(212, 186, 223), rgb(152, 3, 232),rgb(92, 0, 141));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    border: 1.5px solid rgba(255, 255, 255, 0, 401);
+    padding-top: 2rem;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.navbar{
+background-color: rgb(206, 121, 234);
+backdrop-filter: blur(20px);
+width: 330px;
+padding: .4rem 4rem;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 40px;
+margin-top: -2rem;
+margin-bottom: 2rem;
+transition-duration: .2s;
+}
+.navbar:hover{
+    transform: scale(0.97);
+}
+.profile{
+width: 2.6rem;
+background: white;
+border-radius: 60%;
+margin-right: 0.rem;
+}
+.menu{
+filter: invert(1);
+width: 2rem;
+margin-right: 0.rem;
+}
+.main{
+
+}
+.items{
+    border: 1px solid #145451;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem ;
+    width: 320px;
+    border-radius: 9px;
+    background-color: rgb(236, 227, 240);
+    margin: 1rem;
+    transition-duration: .2s;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 319);
+}
+.items:hover{
+    transform: scale(0.96);
+    background-color: rgb(255, 255, 255);
+}
+.icon{
+    width: 2rem;
+}
+.user{
+    color: rgb(61, 61, 61);
+}
+.name{
+    margin-bottom: .5rem;
+}
+sub{
+   font-family: monospace;
+   color: rgb(255, 255, 255);
+   margin-bottom: 2rem;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(215, 122, 215);
+    padding: 20px;
+    color: #6c1854;
+}
